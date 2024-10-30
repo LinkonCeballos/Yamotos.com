@@ -1,0 +1,116 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	background-color: black;
+}
+body{
+	width: 1000px;
+	height: 1000px;
+	background-color: darkred;
+	margin: auto;
+}
+
+header{
+	width: 1000px;
+	height: 200px;
+	background-color: black;
+}
+nav{
+	width: 1000px;
+	height: 50px;
+	background-color: darkred;
+}
+article{
+	width: 800px;
+	height: 700px;
+	background-color: mintcream;
+	float: left;
+}
+aside{
+	width: 200px;
+	height: 700px;
+	background-color: darkred;
+	float: left;
+}
+footer{
+	width: 1000px;
+	height: 50px;
+	background-color: black;
+	float: left;
+}
+nav a{
+	text-decoration: none;
+	color: pink;
+	font-size: 22px;
+	font-family: tahoma;
+}
+nav li{
+	display: inline-block;
+	padding: 12px 5px;
+	box-shadow: 0px 0px 20px #c0c0c0;
+	color: #fff;
+}
+nav li:hover{
+	background-color: #fff;
+	color:#000;
+	box-shadow: 0px 0px 20px #fff;
+	transition:2s;
+
+}
+nav ul{
+	text-align:inherit;
+}
+
+aside{
+	width: 200px;
+	height: 50px;
+	background-image: url(videos/motos);
+	margin: auto;
+	float: left;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: arial;
+}
+
+/*Redes Sociales*/
+.redes ul{
+	list-style: none;
+	text-align: center;
+}
+.redes ul li{
+	display: inline-block;
+}
+.redes ul li img{
+	width: 35px;
+}
+.redes ul li a{
+	display: inline-block;
+	height: 46px;
+	transition:all 0.5s;
+}
+.redes ul li .google{
+	background-color: #00abf0;
+}
+
+.redes ul li .facebook{
+	background-color: #3b5998;
+}
+.redes ul li .instagram{
+	background: #cf3476;
+}
+.redes ul li .whatsapp{
+	background: #4fc54b;
+}
+.redes ul li .twitter{
+	background-color: blue;
+}
+.redes ul li a:hover{
+	background-color: black;
+	box-shadow: 0 0 30px white;
+}
